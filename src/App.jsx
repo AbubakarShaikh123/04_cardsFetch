@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <div className=" flex  flex-wrap gap-10 items-center justify-center">
+      <div className=" flex  flex-wrap gap-10 items-center justify-center py-5">
           {
             data?.map((item, index)=>{
                    return <Card1 
